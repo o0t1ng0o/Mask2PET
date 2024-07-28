@@ -5,9 +5,13 @@ This repository is a PyTorch implementation for PET tumor generation from benign
 We use the HECKTOR 2021 dataset, please download from this link (https://www.aicrowd.com/challenges/miccai-2021-hecktor). Please check the path of data in ./launch/train.sh and ./launch/test.sh
 
 ## Data preprocessing
-In this work, we use the VQ-GAN as encoder to encode the PET. If you want to custom this model on your dataset, please train VQ-GAN on your dataset first. https://github.com/CompVis/taming-transformers.
+In this work, we use the VQ-GAN as an encoder to encode the PET. If you want to customize this model on your dataset, please train VQ-GAN on your dataset first. https://github.com/CompVis/taming-transformers.
 
-We provide the pre-trained VQ-GAN model in ./pretrained_models
+We provide the pre-trained VQ-GAN model at https://huggingface.co/Valentina007/Mask2PET, please download them and place them to ./pretrained_models .
+
+## Pre-trained model of our model
+
+You can download the well-trained model at https://huggingface.co/Valentina007/Mask2PET.
 
 ## Training 
 ```
