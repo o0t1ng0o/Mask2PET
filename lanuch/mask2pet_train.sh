@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3 ./scripts/train_diffusion.py
